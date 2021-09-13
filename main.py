@@ -37,6 +37,7 @@ def main():
     dp.add_handler(CommandHandler("start", start_command))
     # dp.add_handler(CommandHandler("help", help_command))
     dp.add_handler(MessageHandler(Filters.text, handle_message))
+    updater.bot.setWebhook('https://boiling-wildwood-00579.herokuapp.com/' + API_KEY)
     updater.start_polling(1)
     updater.idle()
 if __name__ == '__main__':
