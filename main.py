@@ -1,13 +1,13 @@
 import requests
 from telegram.ext import *
 import json
-from api import API_KEY
+from api import API_KEY, rapidkey
 
 url = "https://free-football-soccer-videos.p.rapidapi.com/"
 API_KEY = API_KEY
 headers = {
     'x-rapidapi-host': "free-football-soccer-videos.p.rapidapi.com",
-    'x-rapidapi-key': "becd31ca73msha66b98fc2e2a9c8p11530djsnaa4903a5da47"
+    'x-rapidapi-key': rapidkey
     }
 
 response = requests.request("GET", url, headers=headers).json()
