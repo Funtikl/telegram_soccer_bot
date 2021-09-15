@@ -1,10 +1,10 @@
 import requests
 from telegram.ext import *
 import json
-
+from api import API_KEY
 
 url = "https://free-football-soccer-videos.p.rapidapi.com/"
-API_KEY = '1987298688:AAEllrHTj8YmHX7AXSwKaN_AKr8mlG1Rel4'
+API_KEY = API_KEY
 headers = {
     'x-rapidapi-host': "free-football-soccer-videos.p.rapidapi.com",
     'x-rapidapi-key': "becd31ca73msha66b98fc2e2a9c8p11530djsnaa4903a5da47"
