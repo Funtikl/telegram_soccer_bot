@@ -1,2 +1,0 @@
-API_KEY = '1987298688:AAEllrHTj8YmHX7AXSwKaN_AKr8mlG1Rel4'
-rapidkey= "becd31ca73msha66b98fc2e2a9c8p11530djsnaa4903a5da47"
