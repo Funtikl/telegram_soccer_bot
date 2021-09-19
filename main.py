@@ -14,6 +14,8 @@ response = requests.request("GET", url, headers=headers).json()
 
 def start_command(update, context):
     update.message.reply_text("""Klubun adını yazın
+_____________________________________
+İki addan ibarət klub adlarını defislə yazın. Məsələn: real-madrid
     """)
     
     
