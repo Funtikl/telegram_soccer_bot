@@ -34,7 +34,8 @@ def handle_message(update, context):
     print(text)
     if not response:
         update.message.reply_text('Bu klubun oyunu hələ ki serverdə yoxdur. Daha sonra yoxlayın.')
-    update.message.reply_text(response)
+    else:
+        update.message.reply_text(response)
 
 def main():
     updater = Updater(API_KEY)
