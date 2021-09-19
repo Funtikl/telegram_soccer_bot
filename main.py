@@ -31,7 +31,8 @@ def handle_message(update, context):
     text = update.message.text
     text = text.lower()
     response = club(text)
-    print(response)
+    print(text)
+    print(a)
     if not response:
         update.message.reply_text('Bu klubun oyunu hələ ki serverdə yoxdur. Daha sonra yoxlayın.')
     update.message.reply_text(response)
